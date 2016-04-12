@@ -2,6 +2,13 @@
 
 Jakarta curated datasets (with small data cleaning).
 
+1. [General](#general)
+    - [Administrative Area (2014)](#Administrative Area (2014))
+2. [Population / Demographics](#Population-/-Demographics)
+    - [Population Density (2013)](#Population Density (2013))
+3. [Infrastructures](#Infrastrctures)
+
+
 ## General
 ### Administrative Area (2014)
 ###### Datasets: [administrative-area.csv](/.datasets/DATA-DKI-MENURUT-NOMOR-KODE-WILAYAH-TAHUN-2014.csv)
@@ -10,14 +17,14 @@ Jakarta curated datasets (with small data cleaning).
 | Fields | Column Name |
 |--------| ----------- |
 | year | `tahun` |
-| province id | nomor_provinsi |
-| province name | nama_provinsi |
-| regency id | nomor_kabupaten |
-| regency name | nama_kabupaten |
-| district id | nomor_kecamatan |
-| district name | nama_kecamatan |
-| village id | nomor_kelurahan |
-| village name | nama_kelurahan |
+| province id | `nomor_provinsi` |
+| province name | `nama_provinsi` |
+| regency id | `nomor_kabupaten` |
+| regency name | `nama_kabupaten` |
+| district id | `nomor_kecamatan` |
+| district name | `nama_kecamatan` |
+| village id | `nomor_kelurahan` |
+| village name | `nama_kelurahan` |
 
 ###### Administrative Level Structure
 
@@ -36,9 +43,9 @@ Provinsi (Province): DKI Jakarta
 | Fields | Column Name | Unit |
 |--------| ----------- | -----|
 | year | `tahun` | |
-| province name | NAMA  PROVINSI | |
-| regency name | NAMA KABUPATEN | |
-| district id | NAMA KECAMATAN | |
-| Area | LUAS WILAYAH | Km<sup>2</sup>
-| Area Density | KEPADATAN | population/Km<sup>2</sup>
+| province name | `NAMA  PROVINSI` | |
+| regency name | `NAMA KABUPATEN` | |
+| district id | `NAMA KECAMATAN` | |
+| Area | `LUAS WILAYAH` | Km<sup>2</sup>
+| Area Density | `KEPADATAN` | population/Km<sup>2</sup>
 
