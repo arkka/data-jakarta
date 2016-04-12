@@ -1,11 +1,11 @@
 # DATA JAKARTA
 
-Jakarta curated datasets (with small data cleaning).
+Jakarta curated datasets (with minor data cleaning).
 
 1. [General](#general)
-    - [Administrative Area (2014)](#Administrative Area (2014))
+    - [Administrative Area (2014)](#Administrative-Area-(2014))
 2. [Population / Demographics](#Population-/-Demographics)
-    - [Population Density (2013)](#Population Density (2013))
+    - [Population Density (2013)](#Population-Density-(2013))
 3. [Infrastructures](#Infrastrctures)
 
 
@@ -36,6 +36,34 @@ Provinsi (Province): DKI Jakarta
 ```
 
 ## Population / Demographics
+### General Population (2014)
+###### Datasets: [DATA-DKI-MENURUT-PENDUDUK-TAHUN-2014.csv](/.datasets/DATA-DKI-MENURUT-PENDUDUK-TAHUN-2014.csv)
+###### Source: [data.jakarta.go.id](http://data.jakarta.go.id/dataset/datadkimenurutpenduduk)
+###### Fields:
+| Fields | Column Name | Unit |
+|--------| ----------- | -----|
+| year | `tahun` | |
+| province name | `nama_provinsi` | |
+| regency name | `nama_kabupaten` | |
+| district id | `nama_kecamatan` | |
+| village name | `name_kelurahan` | |
+| Male - Indonesian | `laki-laki_wni` | |
+| Female - Indonesian | `perempuan_wni` | |
+| Male - Foreign | `laki-laki_wna` | |
+| Female - Foreign | `perempuan_wna` | |
+
+
+### Population Age Group (2013)
+###### Datasets: [Penduduk-Menurut-Kelompok-Umur-dan-Jenis-Kelamin-Di-DKI-Jakarta-Tahun-2013.csv](/.datasets/Penduduk-Menurut-Kelompok-Umur-dan-Jenis-Kelamin-Di-DKI-Jakarta-Tahun-2013.csv)
+###### Source: [data.jakarta.go.id](http://data.jakarta.go.id/dataset/pendudukmenurukelompokumurdanjeniskelamindkijakarta)
+###### Fields:
+| Fields | Column Name | Unit |
+|--------| ----------- | -----|
+| year | `tahun` | |
+| age group | `kelompok_usia` | |
+| total male | `jumlah_laki_laki` | |
+| total female | `jumlah_perempuan` | |
+
 ### Population Density (2013)
 ###### Datasets: [dkikepadatankelurahan2013.csv](/.datasets/dkikepadatankelurahan2013.csv)
 ###### Source: [data.jakarta.go.id](http://data.jakarta.go.id/dataset/kepadatandluaswilayahperkelurahandkijakarta)
@@ -43,9 +71,17 @@ Provinsi (Province): DKI Jakarta
 | Fields | Column Name | Unit |
 |--------| ----------- | -----|
 | year | `tahun` | |
-| province name | `NAMA  PROVINSI` | |
 | regency name | `NAMA KABUPATEN` | |
-| district id | `NAMA KECAMATAN` | |
-| Area | `LUAS WILAYAH` | Km<sup>2</sup>
-| Area Density | `KEPADATAN` | population/Km<sup>2</sup>
+| district name | `NAMA KECAMATAN` | |
+| village name | `NAMA KELURAHAN` | |
+| Area | `LUAS WILAYAH` | Km<sup>2</sup> |
+| Area Density | `KEPADATAN` | population/Km<sup>2</sup> |
+
+
+
+
+
+
+
+
 
