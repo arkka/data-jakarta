@@ -12,8 +12,8 @@ Jakarta curated datasets (with minor data cleaning).
     - [Population Jobs (2013)](#population-jobs-(2013))
     - [Population Education (2013)](#population-education-(2013))
     - [Income per Capita (2013)](#income-per-capita-(2013))
-3. [Infrastructure](#infrastructure)
-
+3. [Building / Infrastructure](#building---infrastructure)
+    - [Building Permit (2012)](#building-permit(1998-2012))
 
 ## General
 ### Administrative Area (2014)
@@ -160,19 +160,18 @@ Provinsi (Province): DKI Jakarta
 
 > As reference, currency at 12 April 2016 EUR 1 = IDR 15028
 
-## Infrastructure
-### xxxxx (xxx)
-##### Datasets: [xxx.csv](./datasets/xxxx.csv)
-##### Source: [data.jakarta.go.id](xxxx)
+## Building / Infrastructure
+
+### Building Permit (1998-2012)
+##### Datasets: [jumlahimbbangunandanluasbangunan19982012.csv](./datasets/jumlahimbbangunandanluasbangunan19982012.csv)
+##### Source: [data.jakarta.go.id](http://data.jakarta.go.id/dataset/jumlahimbbangunandanluasbangunandkijakarta)
 ##### Fields:
 | Fields | Column Name | Unit |
 |--------| ----------- | -----|
 | year | `tahun` | |
-| type of industry | `lapangan_pekerjaan` | |
-| male | `jumlah_lelaki` | |
-| female | `jumlah_perempuan` | |
-
-###### Administrative Level Structure
+| number of permit | `imb` | |
+| number of building | `bangunan` | |
+| building area | `luas_bangunan` | |
 
 
 
