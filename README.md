@@ -15,6 +15,8 @@ Jakarta curated datasets (with minor data cleaning).
 3. [Building / Infrastructure](#building---infrastructure)
     - [Building Permit (2012)](#building-permit-1998-2012)
 
+4. [Jakgo API](#jakgo-api)
+
 ## General
 ### Administrative Area (2014)
 ###### Datasets: [administrative-area.csv](./datasets/DATA-DKI-MENURUT-NOMOR-KODE-WILAYAH-TAHUN-2014.csv)
@@ -172,6 +174,35 @@ Provinsi (Province): DKI Jakarta
 | number of permit | `imb` | |
 | number of building | `bangunan` | |
 | building area | `luas_bangunan` | |
+
+
+## Jakgo API
+
+Jakarta City Government has developed Jakgo API (Beta) to provide direct public access to their data with JSON and GeoJSON format.
+See [Jakgo API Documentation](http://smartcity.jakarta.go.id/apibeta/).
+
+> API TOKEN: q06qb1eTOimT7sc9nMQfkzCKBYEzePXwYbWpEaEk
+
+### Available Endpoints
+- [Kota - City/Regency](http://smartcity.jakarta.go.id/apibeta/#kota-get)
+- [Kecamatan - District](http://smartcity.jakarta.go.id/apibeta/#kecamatan-get)
+- [Kelurahan - Village](http://smartcity.jakarta.go.id/apibeta/#kelurahan-get)
+- [Rukun Warga - Community](http://smartcity.jakarta.go.id/apibeta/#kelurahan-get)
+- [Rukun Tetangga - Neighbourhood](http://smartcity.jakarta.go.id/apibeta/#rw-get)
+- [Pembuangan Sampah - Garbage Depot](http://smartcity.jakarta.go.id/apibeta/#tempat-pembuangan-sampah-sementara-get)
+- [Rumah Sakit Umum - General Hospital](http://smartcity.jakarta.go.id/apibeta/#rumah-sakit-umum-get)
+- [Rumah Sakit Khusus - Specialty Hospital](http://smartcity.jakarta.go.id/apibeta/#rumah-sakit-khusus-get)
+- [Puskesmas - Clinic](http://smartcity.jakarta.go.id/apibeta/#puskesmas-get)
+- [CCTV](http://smartcity.jakarta.go.id/apibeta/#cctv-balitower-get)
+
+Some reference for the API Endpoint parameters:
+
+| Parameter | Description | Example |
+|-----------| ----------- | --------|
+| `kode_kota` | Regency/City Code | |
+| `kode_kecamatan` | District Code | |
+| `kode_kelurahan` | Village Code | |
+| `kode_rw` | Community | |
 
 
 
